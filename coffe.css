@@ -1,0 +1,171 @@
+:root{
+    --header-height:3rem;
+    --font-semi:600;
+}
+:root{
+    --mb-1:0.5rem;
+    --mb-2:1rem;
+    --mb-3:1.5rem;
+    --mb-4:2rem;
+    --mb-5:2.5rem;
+    --mb-6:3rem;
+}
+*
+{
+    padding:0;
+    margin:0;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: auto;
+    background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-brown-coffee-and-coffee-related-line-art-picture-image_1452483.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:calc(100vh - 35vh)
+}
+.topic
+{
+    position:fixed;
+    top:1rem;
+    left:2.5rem;
+}
+.head.scroll {
+    background: linear-gradient(to right, #b56e45, #341a02);
+}
+.nav
+{
+    position:fixed;
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+    left:67rem;
+    top:1.2rem;
+    color:#fff;
+    z-index: 1001;
+}
+.box
+{
+    font-size: 25px;
+    position: fixed;
+    top:1.1rem;
+    left:0.5rem;
+}
+.head
+{
+    top:0;
+    position: fixed;
+    height:9vh;
+    width:100%;
+    background: #321901;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bd7044, #2b1501);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b56e45, #341a02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: background-color 0.5s;
+    z-index: 1000;
+}
+.but
+{
+    height:4vh;
+    border-radius: 0.5rem;
+    width:5vw;
+    background-color:rgb(49, 49, 127);
+    color: #fff;
+    border: none;
+}
+.li,a:hover{
+    color:red;
+}
+.foot
+{
+    width:100%;
+    height:37vh;
+    background: #321901;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bd7044, #2b1501);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b56e45, #341a02);
+    overflow: hidden;
+}
+.html
+{
+    scroll-behavior: smooth;
+}
+.content
+{
+    margin-top:37vh;
+    margin-left:7rem;
+    overflow-y: auto;
+    height:calc(100vh - 35vh);
+    color:#341a02;
+}
+.para
+{
+    margin-top: 0.5rem;
+    font-size: 18px;
+    color:#341a02;
+    font-weight: bold;
+}
+.exp
+{
+    margin-top:50px;
+    margin-left: 40px;
+    height:6vh;
+    width:6vw;
+    border-radius: 0.5rem;
+    background-color: #341a02;
+    color:#fff;
+}
+.exp:hover{
+    color:red;
+}
+.exp1
+{
+    margin-top:50px;
+    margin-left: 40px;
+    height:6vh;
+    width:6vw;
+    border-radius: 0.5rem;
+    background-color: #341a02;
+    color:#fff;
+}
+.exp1:hover{
+    color:red;
+}
+.para1
+{
+    margin-top: 1rem;
+    left:-4rem;
+    font-size: 18px;
+    color:#341a02;
+}
+.footer
+{
+    height:30vh;
+    background: #321901;  
+    background: -webkit-linear-gradient(to right, #bd7044, #2b1501);  
+    background: linear-gradient(to right, #b56e45, #341a02);
+    color:#fff;
+    text-align:center;
+    font-weight: var(--font-semi);
+    padding:2rem 0;
+}
+
+.footer_title
+{
+    margin-top:var(--mb-2);
+    font-size: 2rem;
+    margin-bottom: var(--mb-4);
+}
+.footer_socials
+{
+    margin-top:var(--mb-2); 
+    margin-bottom: var(--mb-4);
+}
+.footer-icon
+{
+    font-size: 2rem;
+    color:#fff;
+    margin:0 var(--mb-2);
+}
